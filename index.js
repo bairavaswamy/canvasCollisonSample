@@ -170,8 +170,9 @@ function animate(){
     ballsArray.forEach(element => {
         element.anime(ballsArray)
     });
-
-    app.fillText("BotBhanue",mouse.x,mouse.y)
+    app.fillStyle = "black"
+    app.font = "20px roboto"
+    app.fillText("Bairavaswamy",mouse.x,mouse.y)
 
 
 }
